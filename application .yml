@@ -1,14 +1,12 @@
-﻿spring:
+spring:
   profiles:
     active:
     - dev
-    
 ---
 spring:
   profiles:  dev  
   application:
-    name: microservicecloud-config-zhanghf-dev
-    
+    name: microservicecloud-config-zhanghf-dev  
  ---
 spring:
   profiles:  test  
