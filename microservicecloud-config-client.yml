@@ -6,9 +6,12 @@
 ---
 server:
   port:8201
+  
 spring:
   profiles: dev
-  application: microservicecloud-config-client
+  application: 
+    name: microservicecloud-config-client
+  
 eureka:
   client:
     service-url:
@@ -17,9 +20,12 @@ eureka:
 ---
 server:
   port:8202
+  
 spring:
   profiles: dev
-  application: microservicecloud-config-client
+  application:
+    name: microservicecloud-config-client
+  
 eureka:
   client:
     service-url:
