@@ -9,7 +9,7 @@ spring:
   application:
     name: microservicecloud-config-zhanghf-dev  
     
- ---
+---
 spring:
   profiles:  test  
   application:
